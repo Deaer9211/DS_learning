@@ -41,7 +41,7 @@ void treasure_find(){
     for(int j=0;j<i-1;j++){
         if(movement[j][0]==71)    count_total(1);//G=71,GOLDEN
         else if(movement[j][0]==83)    count_total(2);//S=83,SILVER
-        else if(movement[j][0]==77)    miss+=4;//M=77,MISS
+        else if(movement[j][0]==77)    miss=4;//M=77,MISS
         else continue;
     }
 }
